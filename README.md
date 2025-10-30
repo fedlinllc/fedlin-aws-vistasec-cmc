@@ -49,9 +49,7 @@ This aligns with SOC 2, ISO 27001, and HIPAA-style evidence expectations.
 
 ## Deployment assets
 
-Deployment assets (Terraform modules, monitoring configs, per-tenant params, workflow files) are kept in the **private** repository:
-
-👉 **\`fedlin-aws-vistasec-cmc-deployment\`**
+Deployment assets (Terraform modules, monitoring configs, per-tenant params, workflow files) are kept in a **private FEDLIN deployment repository** and are provided only as part of an engagement.
 
 This public repo tracks the service description, not the customer code.
 
@@ -59,10 +57,10 @@ This public repo tracks the service description, not the customer code.
 
 ## Related services
 
-- FEDLIN – AWS Security Baseline (\`fedlin-aws-security-baseline\`)
-- FEDLIN – Microsoft 365 Security Baseline (\`fedlin-m365-security-baseline\`)
-- FEDLIN – Google Workspace HIPAA Baseline (\`fedlin-gws-hipaa-baseline\`)
-- FEDLIN – DMARC / SPF / DKIM (\`fedlin-dmarc-spf-dkim\`)
+- FEDLIN – AWS Security Baseline (`fedlin-aws-security-baseline`)
+- FEDLIN – Microsoft 365 Security Baseline (`fedlin-m365-security-baseline`)
+- FEDLIN – Google Workspace HIPAA Baseline (`fedlin-gws-hipaa-baseline`)
+- FEDLIN – DMARC / SPF / DKIM (`fedlin-dmarc-spf-dkim`)
 
 ---
 
