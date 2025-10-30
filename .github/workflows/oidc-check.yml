@@ -1,0 +1,17 @@
+name: vistasec-oidc-check
+on:
+  workflow_dispatch:
+
+permissions:
+  id-token: write
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Placeholder OIDC step
+        run: |
+          echo "This is where we would call AWS using OIDC."
